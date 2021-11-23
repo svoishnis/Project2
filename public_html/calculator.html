@@ -1,10 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <title>Object Oriented Programming</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an example of a meta description, This will often how up in the search results">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+<section class ="header">
+    <div class="header-text">
+        <h2><a href="index.html">IS-601 Project 2</a></h2>
+    </div>
+    <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="oop.html">OBJECT ORIENTED PROGRAMMING</a></li>
+                <li><a href="aaa.html">AAA TESTING</a></li>
+                <li><a href="calculator.html">CALCULATOR ASSIGNMENT</a></li>
+                <li><a href="topic.html">TOPIC ARTICLE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="text-box">
+        <h1>AAA Testing</h1>
+        <p>How To Test Your Code</p>
+        <a href="aaa.html" class="start-btn">Next Section: AAA Testing</a>
+    </div>
+    <div class="picture-attribution">
+        <h4>“Computer C++ Code”, by Pixabay, licensed under CC </h4>
+    </div>
+</section>
+<!--Sixth Section-->
+<section class="sixthsection" id="fframe">
+    <h1>What is Unit Testing?<br><br></h1>
+    <div class="sixthsection-con">
+        <div class="sixthsection-row">
+            <div class="sixthsection-col">
+                <li>
+                    <p>A unit test is a method that instantiates a small portion of an application and verifies its behavior independently from other parts. </p>
+
+                    <h3>Typical unit tests contains 3 phases:</h3>
+                    <p> - First, it initializes a small piece of an application it wants to test
+                        <br> - Then it applies some condition to the system under test
+                        <br>- Finally, it observes the resulting behavior
+                    </p>
+
+                    <p><br>If the observed behavior is as expected, the unit test passes, otherwise, it fails, indicating that there is a problem somewhere in the system under test.</p>
+
+                    <p>These three unit test phases are also known as Arrange, Act and Assert, or simply AAA.</p>
+
+                    <h3>Unit tests are designed to test state-based or interaction-based code logic:</h3>
+                    <p>Verifying that the system under test produces correct results, or that its resulting state is correct, is called state-based unit testing.
+                        <br>Verifying that it properly invokes certain methods is called interaction-based unit testing.
+                    </p>
+
+                    <h3><br>Test Method:</h3>
+
+                    <p>def test_calculator_subtract():
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;""" In the Arrange phase, we create and set up a system under test.This can be empty and is not mandatory"""
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;calc = Calculator()
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;"""The Act phase is where we poke the system under test, usually by invoking a method."""
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;calc.subtract_number(1)
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;"""The Assert phase makes our unit test pass or fail."""
+                        <br>assert calc.get_result() == -1
+                    </p>
+
+
+                    <h3><br>Unit testing principles demand that a good test is:</h3>
+                    <p> - Easy to write
+                        <br>- Readable
+                        <br>- Reliable
+                        <br>- Fast
+                        <br>- Truly unit, not integration
+                    </p>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="picture-attribution-sixth">
+        <h5>"Black and Gray Laptop Computer Turned on Doing Computer Codes", by Christina Morillo, licensed under CC</h5>
+    </div>
+</section>
+
+<!--Fifth Section-->
+<section class="fifthsection">
+    <h1> RETURN TO HOME SCREEN</h1>
+    <a href="index.html"class="start-btn">CLICK HERE</a>
+    <div class="picture-attribution-Fifth">
+        <h4>“PHP Screengrab”, by Pixabay, licensed under CC </h4>
+    </div>
+</section>
+
+<!--Footer Section-->
+<section class="footer">
+    <h4>Created By, <br>Sarah Voishnis</h4>
+    <h5><a href="https://github.com/svoishnis/Project2">Project Repository</a>
+        <a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=http%3A%2F%2Finthis.eastus.azurecontainer.io%2Findex.html#l46c42">W3C Validation</a></h5>
+</section>
 
 </body>
 </html>
