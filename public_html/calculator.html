@@ -40,44 +40,33 @@
     <div class="sixthsection-con">
         <div class="sixthsection-row">
             <div class="sixthsection-col">
+                <p>Each of the four principles of object-oriented programming(Encapsulation, Abstraction, Inheritance, and Polymorphism can be found in the Calculator Project<br></p>
+                <h3><br>Encapsulation</h3>
+                <p>Encapsulation is when each object keeps its state private, inside a class. Other objects can only call a list of public functions, known as methods, and will not have direct access to this state unless permission was explicitly allowed.</p>
+                <p><br>An example of encapsulation in the calculator code is when the calculation class calls the calculations class to use the history tuple. The calculation class would not have access to this object without permission. </p>
+                <p> Example code:
+                    <br> class Calculations:
+                    <br> &nbsp; &nbsp; def add_calculation(calculation):
+                        <br>&nbsp; &nbsp; &nbsp; &nbsp;""" Add a specific calculation to the history"""
+                    <br>&nbsp; &nbsp; return Calculations.history.append(calculation)
+                </p>
 
-                    <p>A unit test is a method that instantiates a small portion of an application and verifies its behavior independently from other parts. </p>
+                <h3><br>Abstraction</h3>
+                <p>Abstraction can be thought of as a natural extension of encapsulation.</p>
+                <p><br></p>
+                <p>Abstraction means that each object only exposes a high-level mechanism for using it. All implementation details are hidden and only relevant operations are visiable to the objects that use them</p>
+                <p><br>The example in the calculator class is when calculator test calls the operation functions. What is hidden from view is that the calculation is stored along with the actual calculation happening. </p>
 
-                    <h3>Typical unit tests contains 3 phases:</h3>
-                    <p> - First, it initializes a small piece of an application it wants to test
-                        <br> - Then it applies some condition to the system under test
-                        <br>- Finally, it observes the resulting behavior
-                    </p>
+                <h3><br>Inheritance</h3>
+                <p>Inheritance is when you create a (child) class by deriving from another (parent) class. Thus creating a hierarchy. The child class reuses all fields and methods of the parent class (common part) and can implement its own (unique part).</p>
 
-                    <p><br>If the observed behavior is as expected, the unit test passes, otherwise, it fails, indicating that there is a problem somewhere in the system under test.</p>
+                <p><br>An example of inheritance in the calculator project is where we have the calculatio class being called by the operation classes like Addition, Subtraction etc in order to preserve the values for the calculations.</p>
+                <h3><br>Polymorphism</h3>
+                <p>Polymorphism is when we have a parent class and a few child classes which inherit from it. This can be implemented  A collection or list — which contains a mix of all these classes, or through a method implemented for the parent class.</p>
+                <p><br></p>
+                <p><br>Polymorphism gives a way to use a class exactly like its parent so there is no confusion with mixing types. Each child class keeps its own methods as they are.</p>
 
-                    <p>These three unit test phases are also known as Arrange, Act and Assert, or simply AAA.</p>
-
-                    <h3>Unit tests are designed to test state-based or interaction-based code logic:</h3>
-                    <p>Verifying that the system under test produces correct results, or that its resulting state is correct, is called state-based unit testing.
-                        <br>Verifying that it properly invokes certain methods is called interaction-based unit testing.
-                    </p>
-
-                    <h3><br>Test Method:</h3>
-
-                    <p>def test_calculator_subtract():
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;""" In the Arrange phase, we create and set up a system under test.This can be empty and is not mandatory"""
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;calc = Calculator()
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;"""The Act phase is where we poke the system under test, usually by invoking a method."""
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;calc.subtract_number(1)
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;"""The Assert phase makes our unit test pass or fail."""
-                        <br>assert calc.get_result() == -1
-                    </p>
-
-
-                    <h3><br>Unit testing principles demand that a good test is:</h3>
-                    <p> - Easy to write
-                        <br>- Readable
-                        <br>- Reliable
-                        <br>- Fast
-                        <br>- Truly unit, not integration
-                    </p>
-
+                <p>Since there are different operations that inherit from the calculation class this is also an example of polymorpishm. Each class uses the values in a different ways in order to fulfill the purpose of each method.</p>
             </div>
         </div>
     </div>
