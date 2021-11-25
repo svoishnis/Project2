@@ -114,9 +114,7 @@
     font-weight: bold;
     transition: .5s;
 }
-na.fa{
-    display: none;
-}
+
 @media(max-width: 700px)  {
     .text-box h1{
         font-size: 20px;
@@ -185,9 +183,6 @@ na.fa{
     text-align: left;
     font-size: 20px;
     padding: 20px;
-    margin-left: 0%;
-    flex-basis: 0%;
-    border-radius: 0px;
     list-style-type: none;
 
 }
@@ -203,7 +198,6 @@ na.fa{
 
 .sixthsection h3{
     color: goldenrod;
-    padding-bottom: 5px;
     font-weight: bolder;
     font-size: 25px;
     padding: 20px;
