@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51692ad2-5bbb-4b86-b24a-8aa49443815f" name="Changes" comment="Update calculator page with content">
+    <list default="true" id="51692ad2-5bbb-4b86-b24a-8aa49443815f" name="Changes" comment="Add code examples for the calculator page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/calculator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Calculator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +50,7 @@
       <updated>1637100375978</updated>
       <workItem from="1637100379389" duration="5323000" />
       <workItem from="1637274456742" duration="8757000" />
-      <workItem from="1637785701436" duration="5277000" />
+      <workItem from="1637785701436" duration="6854000" />
     </task>
     <task id="LOCAL-00001" summary="Add in Main HTML Page">
       <created>1637100546145</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637788427217</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add code examples for the calculator page">
+      <created>1637797549101</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637797549101</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +190,7 @@
     <MESSAGE value="change page headers and structure" />
     <MESSAGE value="fix warnings" />
     <MESSAGE value="Update calculator page with content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update calculator page with content" />
+    <MESSAGE value="Add code examples for the calculator page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add code examples for the calculator page" />
   </component>
 </project>
