@@ -1,10 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <title>Principle Examples on Calculator Project</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an example of a meta description, This will often how up in the search results">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+<section class ="header">
+    <div class="header-text">
+        <h2><a href="index.html">IS-601 Project 2</a></h2>
+    </div>
+    <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="oop.html">OBJECT ORIENTED PROGRAMMING</a></li>
+                <li><a href="aaa.html">AAA TESTING</a></li>
+                <li><a href="calculator.html">CALCULATOR ASSIGNMENT</a></li>
+                <li><a href="topic.html">TOPIC ARTICLE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="text-box">
+        <h1>TOPIC ARTICLE</h1>
+        <p>Separation of Concerns In The Calculator Project</p>
+        <a href="index.html" class="start-btn">Return To Home</a>
+    </div>
+    <div class="picture-attribution">
+        <h4>“Computer C++ Code”, by Pixabay, licensed under CC </h4>
+    </div>
+</section>
+<!--Sixth Section-->
+<section class="sixthsection" id="fframe">
+    <h1>What is Unit Testing?<br><br></h1>
+    <div class="sixthsection-con">
+        <div class="sixthsection-row">
+            <div class="sixthsection-col">
+                <h3>What is separation of concerns? </h3>
+                    <p>Separation of concerns is a software architecture design pattern/principle for separating an application into distinct sections. The design is for each section to address a separate concern. This created an organized system where each section has a meaningful and easily understood role and is easily adaptable to change. Separation of concerns is achieved through logical boundaries with methods, objects, and intended purpose of creation. You can think of this as a hierarchy.
+                    <br>
+                    <br>In the calculator project we can see a hierarchy of concerns through a separate folders of classes and methods grouped with a common purpose in mind. The Calculation folder aims at the actual operatives of the calculator and the calculations itself. The history folder focuses on the history of calculations completed and the supported functions for retrieval and clearing of the generated history. The calculator folder has the purpose of invoking the methods of the operatives and the history in order to complete multiple tasks with only one method call. And finally, the test folder aims as testing each of the other methods within different folders.
+                    </p>
+                <h3><br>Advantages of designing a separation of concerns within your code and examples with the Calculator project:</h3>
+                    <p> - &nbsp;Lack of duplication: Each component has a singular purpose and helps the with overall code maintenance. In the calculator project - we can see this in each method implemented. Each method's purpose is singular. Example - Addition returns the result. Add calculation to history - only has the purpose of adding the values to a list for reference, clear history resets all values in the list to null.
+                    <br><br> - &nbsp;The system becomes more stable - this is attributed by each component having a singular and not complex purpose.
+                    <br><br> - &nbsp;Components which are more easily reused in other systems, or different contexts within the same system: In the calculator project we can see how the individual operations are called for by the operative methods as well as the methods to get the first result and the most recent result. In this case the purpose is similar but the execution of the method is different.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="picture-attribution-sixth">
+        <h5>"Black and Gray Laptop Computer Turned on Doing Computer Codes", by Christina Morillo, licensed under CC</h5>
+    </div>
+</section>
+
+<!--Footer Section-->
+<section class="footer">
+    <h4>Created By, <br>Sarah Voishnis</h4>
+    <h5><a href="https://github.com/svoishnis/Project2">Project Repository</a>
+        <a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=http%3A%2F%2Finthis.eastus.azurecontainer.io%2Findex.html#l46c42">W3C Validation</a></h5>
+</section>
 
 </body>
 </html>
