@@ -226,6 +226,12 @@
     padding: 0;
 
 }
+.fifthsection h4{
+    color: grey;
+    margin-bottom: 40px;
+    padding: 0;
+
+}
 @media(max-width: 700px) {
     .fifthsection h1{
         font-size: 25px;
