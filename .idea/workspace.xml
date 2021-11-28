@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51692ad2-5bbb-4b86-b24a-8aa49443815f" name="Changes" comment="Update reference for photo">
+    <list default="true" id="51692ad2-5bbb-4b86-b24a-8aa49443815f" name="Changes" comment="Remove W3c Validator image errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637803092030</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add W3c Validator image">
+      <created>1637803923383</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637803923383</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Remove W3c Validator image errors">
+      <created>1637804057365</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1637804057365</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +237,8 @@
     <MESSAGE value="Fix warnings" />
     <MESSAGE value="Update photo for section 5" />
     <MESSAGE value="Update reference for photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update reference for photo" />
+    <MESSAGE value="Add W3c Validator image" />
+    <MESSAGE value="Remove W3c Validator image errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove W3c Validator image errors" />
   </component>
 </project>
